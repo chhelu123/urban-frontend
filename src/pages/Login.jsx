@@ -65,6 +65,7 @@ const Login = () => {
                 <input
                   type="password"
                   required
+                  autoComplete="current-password"
                   className="input-field pl-10"
                   placeholder="••••••••"
                   value={formData.password}
