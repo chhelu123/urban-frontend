@@ -171,7 +171,7 @@ const BookNow = () => {
     try {
       const orderData = {
         pricingMode,
-        serviceType: formData.serviceType,
+        serviceType: pricingMode === 'per-piece' ? 'per-piece' : formData.serviceType,
         totalWeight: pricingMode === 'per-kg' ? parseFloat(formData.totalWeight) : 0,
         items: pricingMode === 'per-piece' ? selectedItems : [{ type: 'clothes', weight: parseFloat(formData.totalWeight) }],
         totalPrice: calculatedPrice,
