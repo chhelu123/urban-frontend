@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/logo/Screenshot 2025-12-09 172425.png" alt="UrbanWash Logo" className="h-12 w-auto" />
+            <img src="/logo/Screenshot 2025-12-09 172425.png" alt="" className="h-12 w-auto" />
             <span className="text-2xl font-bold text-gray-900">UrbanWash</span>
           </Link>
 
